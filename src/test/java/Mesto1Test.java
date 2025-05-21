@@ -39,7 +39,7 @@ import static io.restassured.RestAssured.given;
             deleteLikePhotoById(photoId);
         }
 
-        @Step("Take the first photo from the list")
+        @Step("Take the first photo!! from the list")
         private String getTheFirstPhotoId() {
             // Получение списка фотографий и выбор первой из него
             return given()
